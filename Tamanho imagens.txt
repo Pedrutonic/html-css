@@ -1,0 +1,14 @@
+imagem pequena:
+
+300 x 300
+80 x 80
+
+imagem media:
+
+700 x 700
+80 x 80
+
+Imagem grande:
+
+1000x1000
+80x80

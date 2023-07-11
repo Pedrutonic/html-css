@@ -1,0 +1,25 @@
+br - pular linha
+p - paragrafo
+h1 - titulos
+img - imagens
+abbr - abreviação
+code - codigo-fonte
+pre - organizar
+q - citação
+ol - lista numerada
+ul - lista demarcadora
+picture - source media type - imagem dinamica
+video - importar video
+a - colocar link
+id - criar seletor personalizado
+class - criar a classe
+header - cabeçalho
+main - 
+footer - rodapé
+article - artigo
+aside - 
+target = _blanck - levar link a outro site
+
+
+
+

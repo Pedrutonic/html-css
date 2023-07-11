@@ -1,0 +1,31 @@
+BODY - corpo
+text-align - alinhamento texto
+text-indent - inicio de paragrafo
+font-size - tamanho da font
+font weight - peso da font
+font-style - estilo de font
+text-decoration - decoração do texto
+# - configurar o id personalizado
+. - configurar a classe personalizada
+hover - efeito ao passar o mouse em cima
+:visited - site visitado
+::after - colocar depois do texto
+::before - colocar antes do texto
+:active - cor ao clicar
+height - altura
+width - largura
+border-style: solid - borda solida
+border-style: dashed - borda pontilhada com -
+border-style: dotted - borda pontilhada com  bolas
+border-style: double - borda com linha dupla
+border-style: grove - borda 3D
+outline - borda da borda
+display-block - tranformar a caixa em bloco
+display-inline - transformar a caixa em linha
+box-shadow: px , px, px, cor - sombra
+border-image-source - borda personalizada
+
+(para criar nav-menu, usar justify-content space-between
+flex direction row 
+display flex)
+:root --(nome da variavel - criar variavel

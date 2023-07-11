@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir essse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/imagem-P.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/imagem-M.png" type="image/png">
+        <img src="Imagens/Imagem-G.png" alt="">
+        <!--Coloque os tamanhos em ordem crescente para funcionar perfeitamente-->
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/X2Download.app - BURRO QUE NEM UMA PORTA! (128 kbps).mp3" controls autoplay></audio>
+    <!--ultilize o comando audio, coloque o audio e após coloque o comando 'controls autoplay'-->
+    <audio>
+        <source src="midia/X2Download.app - BURRO QUE NEM UMA PORTA! (128 kbps).mp3" type="audio/mpeg">
+    </audio>
+    <h1>Reproduzindo Video</h1>
+    <p>Vamos aprender a reproduzir videos em HTML5</p>
+    <video width="700" controls autoplay loop>
+        <source src="midia/Pexels-Karolina-Grabowska-4747773-1920X1080-25Fps.mp4"  type="video/mp4" >
+        <!--Se não reproduzir o video ultilize o codigo 'controls'-->
+        <!--Recomendado colcoar todos os formatos de videos em sequencia para todos os navegadores serem compativeis-->
+    </video>
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lcBmR4F4Tqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!--Recomendado para ultilizar videos vioa youtube,para otimização do site e compatibilidade-->
+
+</body>
+</html>  

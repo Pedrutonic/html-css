@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*  SELETORES PERSONALIZADOS
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = clildren
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: blueviolet;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            color: brown;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UCR6K2DpqG-0Of-v8e4ZoP7Q" target="_blank">Canal do youtube</a></li>
+        <li><a href="https://twitter.com/PixelsofMark">Nosso Twitter</a></li>
+        <li><a href="https://www.instagram.com/">nosso Instagram</a></li>
+    </ul>
+</body>
+</html>
